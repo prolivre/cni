@@ -1,0 +1,331 @@
+
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&family=Signika&family=Source+Sans+Pro&display=swap');
+
+
+/* Header - menu */ 
+
+body {
+    background: #F0F2EF;
+    margin: 0;
+}
+
+.container-home{
+    max-width: 100%;
+    max-height: 100%;
+    zoom: 70%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.menu {
+    width: 100%;
+    margin-top: -50px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    cursor:pointer;
+    
+}
+
+.menu li:hover{
+    bottom: 182px;
+    height: 276px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 1;
+  }
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-verde {
+    background-color: #09814A;
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    border-radius: 0 0px 10px 10px;
+    z-index: 99999;
+    position: relative;
+   
+}
+
+.menu-azul {
+    background-color: #004E89;
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    border-radius: 0 0px 10px 10px;
+    z-index: 99999;
+    position: relative;
+}
+
+.menu-rosa-escuro {
+    background-color: #9E0059;
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    border-radius: 0 0px 10px 10px;
+    z-index: 99999;
+    position: relative;
+}
+
+.menu-cinza {
+    background-color: #D7DFE0;
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    border-radius: 0 0px 10px 10px;
+    z-index: 99999;
+    position: relative;
+}
+
+.bg1 {
+    top: -150px;
+    left: -378px;
+    position: absolute;  
+    background: #F0F2EF;
+    background-size: cover;
+}
+
+.title-intro{
+    color: #9E0059;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 104px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    top: 150px;
+    left: 310px;;
+    z-index: 99999;
+    position: relative;
+    opacity: 1;
+}
+
+.text-intro-1{
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    top: 60px;
+    left: 310px;
+    z-index: 99999;
+    position: relative;
+}
+
+.box {
+    top: -560px;
+    left: 630px;
+    width: 416px;
+    height: 432px;
+    background: #707070;
+    z-index: 99999;
+    float: right;
+    position: relative;
+}
+
+.subtitle-intro{
+    color: #000000;
+    font-family: 'Catamaran', bold;
+    font-weight: bold;
+    font-size: 28px;
+    top: 100px;
+    left: 310px;
+    letter-spacing: 0px;
+    z-index: 99999;
+    position: relative;
+}
+
+.text-intro-2{
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    top: 30px;
+    left: 310px;
+    z-index: 99999;
+    position: relative;
+}
+
+.ico-intro-1 {
+    top: 0px;
+    left: 230px;   
+    z-index: 99999;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.ico-intro-1, img {
+    margin-top: 50px;
+}
+
+.ico-info {
+    color: #9E0059;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: -150px;
+    margin-left: 220px;
+}
+
+.subtitle-intro-2 {
+    color: #000000;
+    font-family: 'Catamaran', bold;
+    font-size: 48px;
+    font-weight: bold;
+    top: 1100px;
+    left: 100px;
+    position: relative; 
+    z-index: 99999;
+}
+
+.text-intro-3 {
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    top: 1040px;
+    left: 102px;
+    position: relative;
+}
+
+.mini-slide {
+    top: 900px;
+    left: 630px;
+    width: 416px;
+    height: 432px;
+    z-index: 99999;
+    float: right;
+    position: relative;
+}
+
+.px{
+    font-size: 24px;
+}
+
+.px2{
+    font-size: 24px;
+    top: 230px;
+    left: 600px;
+    position: relative; 
+    z-index: 99999;
+}
+
+.px3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 220px;
+}
+
+.bg2 {
+    top: 700px;
+    left: 300px;
+    position: relative;
+    z-index: 99999;   
+}
+
+.px2{
+    font-size: 24px;
+    top: 230px;
+    left: 600px;
+    position: relative; 
+    z-index: 99999;
+}
+
+.bg3 {
+    top: 250px;
+    left: 490px;
+    margin: 0;
+    position: relative;
+    z-index: 99999;    
+}
+
+.bg4 {
+    top: 150px;
+    background-size: cover;
+    position: relative;   
+}
+
+
+/* Versão mobile*/
+
+@media (max-width: 600px) {
+
+.subtitle-intro-2 {
+    top: 100px
+}
+
+.text-intro-3 {
+    top: 50px;
+}
+
+.menu {
+    margin-top: -25px;
+    margin-left: -20px;
+}
+
+.menu li:hover{
+    bottom: 0;
+    height: 0;
+}
+
+.menu-verde {
+    padding: 20px 0px 20px 0px; 
+}
+
+.menu-azul {
+    padding: 20px 0px 20px 0px; 
+}
+
+.menu-rosa-escuro {
+    padding: 20px 0px 20px 0px; 
+}
+
+.menu-cinza {
+    padding: 20px 0px 20px 0px; 
+}
+
+.box {
+    left: 1050px;
+}
+
+.ico-intro-1 {
+    top: -400px;
+}
+
+.bg2 {
+    top: 0;
+    left: 0;
+}
+
+.bg3 {
+    top: -460px;
+    left: 200px;
+}
+
+.px2 {
+    top: -630px;
+    left: 460px;
+}
+
+}
